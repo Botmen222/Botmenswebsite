@@ -1,0 +1,78 @@
+﻿
+body {
+    background-color: aqua;
+}
+
+.active {
+    background-color: red;
+}
+
+.navbar {
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid black;
+    margin: 50px;
+    overflow: auto;
+    width: 20%;
+}
+
+.navbar a {
+    margin: 5px;
+    border: 3px solid black;
+    color: black;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;    
+
+}
+
+.navbar a:hover {
+    background-color: magenta;
+}
+
+.profile {
+    float: left;
+}
+
+.btnnn {
+    border: 0px solid black;
+    background-color: aqua;
+}
+
+.regist {
+    margin: 10px;
+    padding: 10px;
+}
+
+.submit {
+    background-color: #4CAF50;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 80px;
+    cursor: pointer;
+}
+
+.login {
+    margin: 10px 200px;
+}
+
+.programs {
+    border: 2px solid black;
+    width: 17%;
+    text-align: center;
+    margin: 20px 20px;
+    
+}
+
+.program {
+    border: 2px solid black;
+    margin: 50px 50px;
+}
